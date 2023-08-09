@@ -1,0 +1,23 @@
+.contentDescript {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.contentDescript img {
+    border-radius: 50%;
+    height: 98px;
+    width: 98px;
+}
+
+.contentDescript .contentDescript-name h1{
+    font-size: 22px;
+    text-align: justify;
+}
+
+.contentDescript .contentDescript-description p{
+    font-size: 14px;
+    text-align: left;
+}
