@@ -1,0 +1,41 @@
+.contentSkylls {
+    margin: 8px auto;
+    padding: 4px;
+}
+
+.contentSkylls h2 {
+    text-align: center;
+    padding: 4px;
+}
+
+.contentSkylls .contentSkylls-skills {
+    display: grid;
+    grid-gap: 14px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contentSkylls-skills .contentSkylls-skills__items {
+    align-items: center;
+    background: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4px;
+    padding: 20px;
+    transition: all 0.8s;
+}
+
+.contentSkylls-skills .contentSkylls-skills__items:hover {
+    transform: scale(1.04);
+}
+
+.contentSkylls-skills .contentSkylls-skills__items img {
+    width: 100%;
+    height: 40px;
+}
+
+.contentSkylls-skills .contentSkylls-skills__items p {
+    font-weight: bold;
+}

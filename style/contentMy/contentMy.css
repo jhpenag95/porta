@@ -1,0 +1,23 @@
+.contentMy {
+    margin: 8px auto;
+    padding: 4px;
+}
+
+.contentMy h2 {
+    text-align: center;
+    padding: 4px;
+}
+
+.contentMy p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.contentMy .contentMy-signature {
+    width: 120px;
+    height: 100px;
+}
+.contentMy .contentMy-signature img{
+    width: 100%;
+    height: 100%;
+}
