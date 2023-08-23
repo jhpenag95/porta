@@ -1,0 +1,137 @@
+.contentContact {
+    padding: 4px;
+}
+
+.contentContact h2 {
+    margin-bottom: 24px;
+}
+
+.contentContact .contentContact-descript {
+    margin-bottom: 24px;
+}
+
+.contentContact .contentInfo_items {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contentContact .contentInfo_items img {
+    padding: 8px;
+}
+
+.contentInfo_itemsText {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+/***===========form===============****/
+
+.contenInput {
+    padding: 4px;
+}
+
+.input {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 1em 0 1em 0;
+    width: 100%;
+    position: relative;
+}
+
+.input input,
+.input textarea {
+    font-size: 100%;
+    padding: 8px;
+    outline: none;
+    border: 2px solid #3c526f;
+    background-color: transparent;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.input label {
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(0, 0, 0);
+}
+
+.input :is(input:focus, input:valid, textarea:focus, textarea:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #faf9f9;
+}
+
+.input :is(input:focus, input:valid, textarea:focus, textarea:valid) {
+    border-color: #375985;
+    ;
+}
+
+
+button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #183153;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border: none;
+}
+
+button:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #3c526f;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: auto;
+    left: auto;
+}
+
+button:hover::after {
+    right: auto;
+    left: auto;
+    width: 100%;
+}
+
+button span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 8px 25px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover span {
+    color: #fff;
+    animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

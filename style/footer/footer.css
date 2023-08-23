@@ -1,0 +1,17 @@
+footer{
+    background-color: #3c526f;
+    height: 80px;
+    width: 100%;
+}
+
+.contentFooter{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contentFooter p{
+    color: #ffffff;
+}

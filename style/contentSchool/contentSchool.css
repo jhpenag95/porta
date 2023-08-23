@@ -41,6 +41,11 @@
     width: 100px;
 }
 
+.contentSchool-content__items .Platzi{
+    background: #08e889;
+}
+
+
 .contentSchool-content__items h4 {
     font-weight: bold;
     text-align: center;

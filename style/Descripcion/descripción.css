@@ -13,9 +13,14 @@
     width: 98px;
 }
 
+.contentDescript .contentDescript-name {
+    margin-bottom: 12px;
+}
+
 .contentDescript .contentDescript-name h1{
     font-size: 22px;
     text-align: justify;
+    margin-bottom: 12px;
 }
 
 .contentDescript-description p{
