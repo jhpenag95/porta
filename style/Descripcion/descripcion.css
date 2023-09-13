@@ -8,9 +8,9 @@
 
 .contentDescript img {
     border-radius: 50%;
-    height: 98px;
+    height: 160px;
     margin-bottom: 8px;
-    width: 98px;
+    width: 160px;
 }
 
 .contentDescript .contentDescript-name {
@@ -26,6 +26,7 @@
 .contentDescript-description p{
     font-size: 14px;
     text-align: justify;
+    margin-bottom: 10px;
 }
 
 .contentDescript  .contentDescript-socialNetworks {
@@ -50,8 +51,8 @@
     transform: scale(1.04);
 }
 
-.contentDescript-socialNetworks__items img {
-    width: 70px;
+.contentDescript-socialNetworks__items .iconsNetworks {
+    width: 30px;
     height: 30px;
 }
 .contentDescript-socialNetworks__items p {

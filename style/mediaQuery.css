@@ -1,0 +1,49 @@
+@media screen and (min-width: 600px) {
+    main {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .contentDescript .profile {
+        border-radius: 50%;
+        height: 200px;
+        margin: 24px;
+        width: 200px;
+    }
+
+    .contentDescript .contentDescript-name h1 {
+        font-size: 28px;
+        margin: 24px auto;
+    }
+
+    .contentDescript-description {
+        margin: 24px auto;
+    }
+
+    .contentDescript-socialNetworks__items .iconsNetworks {
+        width: 20px;
+        height: 20px;
+    }
+
+    .contentDescript .contentDescript-socialNetworks {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        margin: 24px 0px;
+        width: 100%;
+    }
+
+    button {
+        margin: 24px auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos para pantallas más pequeñas (por ejemplo, smartphones) */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para pantallas medianas (por ejemplo, tabletas) */
+}
+
+@media screen and (min-width: 1025px) {
+    /* Estilos para pantallas grandes (por ejemplo, computadoras de escritorio) */
+}
