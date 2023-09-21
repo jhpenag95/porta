@@ -13,6 +13,7 @@
     display: grid;
     grid-gap: 14px;
     grid-template-columns: repeat(2, 1fr);
+    margin: 24px auto;
 }
 
 .contentSkylls-skills .contentSkylls-skills__items {

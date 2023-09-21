@@ -29,6 +29,8 @@
 
 .contenInput {
     padding: 4px;
+    max-width: 600px;
+    margin: 8px auto;
 }
 
 .input {

@@ -1,7 +1,16 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     main {
         max-width: 80%;
         margin: 0 auto;
+    }
+
+    .contentMenu {
+        height: 80px;
+    }
+
+    .contentMenu .contentMenu-icon img {
+        height: 30px;
+        width: 30px;
     }
 
     .contentDescript .profile {
@@ -20,15 +29,42 @@
         margin: 24px auto;
     }
 
+
+    .cont {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contentSkylls .contentSkylls-skills {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contentHobies .contentHobbies-hobbies {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contentSchool .contentSchool-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contentExperience .contentExperience-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contentDescript-description p {
+        font-size: 18px;
+    }
+
+    .contentMy p {
+        font-size: 18px;
+    }
+
     .contentDescript-socialNetworks__items .iconsNetworks {
         width: 20px;
         height: 20px;
     }
 
     .contentDescript .contentDescript-socialNetworks {
-        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-        margin: 24px 0px;
-        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     button {
@@ -36,14 +72,35 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    /* Estilos para pantallas más pequeñas (por ejemplo, smartphones) */
-}
+@media screen and (min-width: 1000px) {
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Estilos para pantallas medianas (por ejemplo, tabletas) */
-}
+    .contentInfo {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
 
-@media screen and (min-width: 1025px) {
-    /* Estilos para pantallas grandes (por ejemplo, computadoras de escritorio) */
+    .contentSkylls .contentSkylls-skills {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .contentHobies .contentHobbies-hobbies {
+        grid-template-columns: repeat(5, 1fr);
+        margin: 30px auto;
+    }
+
+    .contentSchool .contentSchool-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contentExperience .contentExperience-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    button span {
+        padding: 10px 28px;
+        font-size: 18px;
+    }
+
+
+
 }
