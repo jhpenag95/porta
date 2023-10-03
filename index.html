@@ -12,17 +12,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700;900&display=swap" rel="stylesheet">
 
     <!--my styles-->
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/nav/nav.css">
-    <link rel="stylesheet" href="style/Descripcion/descripcion.css">
-    <link rel="stylesheet" href="style/contentMy/contentMy.css">
-    <link rel="stylesheet" href="style/contentSkylls/contentSkylls.css">
-    <link rel="stylesheet" href="style/contentHobies/contentHobies.css">
-    <link rel="stylesheet" href="style/contentSchool/contentSchool.css">
-    <link rel="stylesheet" href="style/experience/experience.css">
-    <link rel="stylesheet" href="style/contentContact/contentContact.css">
-    <link rel="stylesheet" href="style/mediaQuery.css">
-    <link rel="stylesheet" href="style/footer/footer.css">
+    <link rel="stylesheet" href="../public/css/reset.css">
+    <link rel="stylesheet" href="../public/css/nav/nav.css">
+    <link rel="stylesheet" href="../public/css/Descripcion/descripcion.css">
+    <link rel="stylesheet" href="../public/css/contentMy/contentMy.css">
+    <link rel="stylesheet" href="../public/css/contentSkylls/contentSkylls.css">
+    <link rel="stylesheet" href="../public/css/contentHobies/contentHobies.css">
+    <link rel="stylesheet" href="../public/css/contentSchool/contentSchool.css">
+    <link rel="stylesheet" href="../public/css/experience/experience.css">
+    <link rel="stylesheet" href="../public/css/contentContact/contentContact.css">
+    <link rel="stylesheet" href="../public/css/mediaQuery.css">
+    <link rel="stylesheet" href="../public/css/footer/footer.css">
 
 </head>
 
@@ -30,7 +30,7 @@
     <header>
         <div class="contentMenu">
             <div class="contentMenu-icon">
-                <img src="assets/images/imagen perfil.jpg" alt="icono portafolio">
+                <img src="../assets/images/imagen perfil.jpg" alt="icono portafolio">
             </div>
             <p>Helver Johan Peña Gordillo</p>
             <p class="contentMenu-dates">helver248@hotmail.es</p>
@@ -39,7 +39,7 @@
     <main>
         <section class="contentDescript">
             <div class="cont">
-                <img src="assets/images/imagen perfil.jpg" alt="Imagen personal" class="profile">
+                <img src="../assets/images/imagen perfil.jpg" alt="Imagen personal" class="profile">
                 <div class="contentDescript-name">
                     <h1>Hola, soy Helver Peña desarrollor de páginas web y soy analista de calidad</h1>
                 </div>
@@ -59,15 +59,15 @@
             </div>
             <div class="contentDescript-socialNetworks">
                 <a href="" class="contentDescript-socialNetworks__items">
-                    <img src="assets/icon/github.svg" alt="GitHub" class="iconsNetworks">
+                    <img src="../assets/icon/github.svg" alt="GitHub" class="iconsNetworks">
                     <p>GitHub</p>
                 </a>
                 <a href="" class="contentDescript-socialNetworks__items">
-                    <img src="assets/icon/linkedin.svg" alt="Linkedin" class="iconsNetworks">
+                    <img src="../assets/icon/linkedin.svg" alt="Linkedin" class="iconsNetworks">
                     <p>Linkedin</p>
                 </a>
                 <a href="" class="contentDescript-socialNetworks__items">
-                    <img src="assets/icon/instagram.svg" alt="Instagram" class="iconsNetworks">
+                    <img src="../assets/icon/instagram.svg" alt="Instagram" class="iconsNetworks">
                     <p>Instagram</p>
                 </a>
             </div>
@@ -388,10 +388,10 @@
                         <p class="contentInfo_itemsText">305 816 2244</p>
                     </div>
                 </div>
-                <form class="contenInput">
+                <form class="contenInput" action="/procesar-email">
                     <div class="input">
-                        <input type="email" required="" autocomplete="off">
-                        <label for="name">Tu correo</label>
+                        <input type="email" name="desde" required="" autocomplete="off">
+                        <label for="desde">Tu correo</label>
                     </div>
                     <div class="input">
                         <input type="email" required="" autocomplete="off">
