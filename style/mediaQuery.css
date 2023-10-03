@@ -2,6 +2,7 @@
     main {
         max-width: 80%;
         margin: 0 auto;
+        padding: 50px;
     }
 
     .contentMenu {
@@ -16,12 +17,12 @@
     .contentDescript .profile {
         border-radius: 50%;
         height: 200px;
-        margin: 24px;
+        margin: 24px auto;
         width: 200px;
     }
 
     .contentDescript .contentDescript-name h1 {
-        font-size: 28px;
+        font-size: 38px;
         margin: 24px auto;
     }
 
@@ -74,6 +75,10 @@
 
 @media screen and (min-width: 1000px) {
 
+    h2 {
+        font-size: 34px;
+    }
+
     .contentInfo {
         display: grid;
         grid-template-columns: repeat(3, auto);
@@ -101,6 +106,9 @@
         font-size: 18px;
     }
 
+    .contentContact {
+        margin: 50px auto;
+    }
 
 
 }

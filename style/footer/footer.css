@@ -12,6 +12,6 @@ footer{
     width: 100%;
 }
 
-.contentFooter p{
+.contentFooter p, span{
     color: #ffffff;
 }
